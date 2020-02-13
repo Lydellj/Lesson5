@@ -1,0 +1,115 @@
+/*Global styles
+--------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body {
+    color: #2e2d2d;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.25;
+}
+img {
+    width:300px;
+}
+a {
+   color: #557dc9; 
+}
+a:hover {
+    color: rgb(178, 194, 224); 
+ }
+ h2 {
+     margin: 0;
+ }
+ .content-wrap {
+    width: 900px;
+    margin: auto;
+    padding: 40px 0;
+ }
+/*Profile
+--------------------------------------------*/
+h1 {
+    text-transform: uppercase;
+    background-color: #000;
+    color: #f7fff7;
+    padding: 18px 20px 18px 55px;
+    font-family: Cambria,'Times New Roman', serif;
+    font-size: 34px;
+    letter-spacing: 30px;
+    line-height: 1.25;
+    border-bottom: 5px solid #314ea5;
+    text-shadow: 0 0 10px #fff,
+0 0 20px #fff,
+0 0 30px #fff,
+0 0 40px #0059ff,
+0 0 70px #0059ff,
+0 0 80px #0059ff,
+0 0 100px #ff00de,
+0 0 150px #ff00de;
+}
+
+header {
+    background-color: #4e4e4e;
+    color: #cccbcb;
+    font-size: 18px;
+}
+
+/*Projects
+--------------------------------------------*/
+.projects {
+    background: #bdbdbd;
+}
+.projects a {
+}   
+.projects .btn {
+    color: #557dc9;
+    background: #182f58;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 7px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(107, 106, 106,85%);
+    color: rgb(253, 252, 251);
+}
+.projects-item {
+    overflow: hidden;
+    border-bottom: 2px dashed #acacac;
+    padding: 25px 0; 
+}
+.projects-item img {
+    float: left;
+    margin-right: 20px;
+}
+.projects-item h3{
+    margin-top: -4px;
+}
+
+/*Work Experience
+--------------------------------------------*/
+.workExperience {
+    background: #a9b1bb;
+}
+/*Work Experience
+--------------------------------------------*/
+.jobTitle {
+    background: #cac9c9;
+}
+
+/*Education
+--------------------------------------------*/
+.education {
+    background-color: #bfc4ca ;
+}
+
+/*Contact Info
+--------------------------------------------*/
+footer {
+    background-color: #000;
+    color: #f7fff7;
+}
